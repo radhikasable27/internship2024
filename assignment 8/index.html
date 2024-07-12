@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Booking</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Select a Movie and Book Seats</h1>
+    
+    <div id="movie-selection">
+        <label for="movie">Select a Movie:</label>
+        <select id="movie">
+            <option value=""></option>
+            <option value="1">Kalki</option>
+            <option value="2">Munjya</option>
+            <option value="3">Pushpa 2</option>
+            <option value="4">Stree 2</option>
+        </select>
+    </div>
+    
+    <div id="seats-container">
+        <div class="screen">Screen</div>
+        <div id="seats"></div>
+    </div>
+    
+    <button id="book-btn">Book Selected Seats</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
